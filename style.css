@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+header h3 {
+    margin: 0.5em auto;
+    font-family: "Parkinsans", sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.tagline {
+    font-weight: 700;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.label-color {
+    color: #248a75;
+    font-weight: 700;
+}
+
+.mtb-1 {
+    margin: 1rem auto;
+}
+
+.mtb-2 {
+    margin: 2rem auto;
+}
+
+.input-form {
+    margin: .5rem auto;
+    padding: 0 .5rem;
+    border-radius: 2rem;
+    border: 2px solid #198754;
+    color: #198754;
+    text-align: center;
+    height: 3rem;
+}
+
+.background-shape {
+    border-radius: 47% 53% 65% 35% / 49% 58% 42% 51%;
+    background-color: yellow;
+    background-image: linear-gradient(45deg, green 0%, yellow 100%);
+    width: 50rem;
+    height: 50rem;
+    box-shadow: -10vmin 10vmin #ffffff12;
+    position: absolute;
+    top: 20rem;
+    left: -30rem;
+    opacity: 0.3;
+    z-index: 1;
+}
+
+.btn.btn-success {
+    font-weight: 700;
+    border-radius: 1.5rem;
+    font-size: 1em;
+}
+
+.btn.btn-success:hover {
+    color: #198754;
+    background-color: #fff;
+    border: 1px solid #198754;
+}
+
+#main-index {
+    height: 88vh !important;
+}
+
+.login-bg {
+    background-image: url('assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.form-bg {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+form {
+    width: 20em;
+    height: 20em;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgba(25, 135, 84, .1);
+    border-radius: 1.5rem;
+    padding: 3em 0;
+    position: relative;
+    box-shadow: 1em 1em 1em gainsboro;
+    color: #198754;
+}
+
+@media only screen and (max-width: 767px) {
+
+    header h3,
+    footer h6,
+    #login-btn {
+        text-align: center;
+    }
+
+    .login-bg,
+    .background-shape-left {
+        display: none;
+    }
+
+    .form-bg {
+        background-image: url('assets/background.jpg');
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .login-bg,
+    .background-shape-left {
+        display: none;
+    }
+
+    .form-bg {
+        background-image: url('assets/background.jpg');
+    }
+}
