@@ -49,12 +49,12 @@ a {
     border-radius: 47% 53% 65% 35% / 49% 58% 42% 51%;
     background-color: yellow;
     background-image: linear-gradient(45deg, green 0%, yellow 100%);
-    width: 50rem;
-    height: 50rem;
+    width: 20rem;
+    height: 20rem;
     box-shadow: -10vmin 10vmin #ffffff12;
     position: absolute;
-    top: 20rem;
-    left: -30rem;
+    bottom: 0rem;
+    left: -10rem;
     opacity: 0.3;
     z-index: 1;
 }
@@ -104,7 +104,6 @@ form {
 }
 
 @media only screen and (max-width: 767px) {
-
     header h3,
     footer h6,
     #login-btn {
